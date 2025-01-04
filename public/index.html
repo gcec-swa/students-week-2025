@@ -1,74 +1,70 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>GCECT Students' Week</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GCECT Students' Week</title>
 
-        <link rel="stylesheet" href="styles/github-markdown.css" />
-        <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/github-markdown.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
 
-        <link rel="icon" href="assets/images/GcectLogo.png" />
-        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    </head>
-    <body>
-        <header>
-            <img src="assets/images/GcectLogo.png" alt="College Logo" />
-            <h1>GCECT Students' Week Program</h1>
-        </header>
-        <nav>
-            <ul>
-                <li><a href="#" onclick="showSection('home')">Home</a></li>
-                <li>
-                    <a href="#" onclick="showSection('gallery')">Gallery</a>
-                </li>
-                <li>
-                    <a href="#" onclick="showSection('contact')">Contact Us</a>
-                </li>
-            </ul>
-        </nav>
+    <link rel="icon" href="assets/images/GcectLogo.png" />
 
-        <div id="home" class="content">
-            <h1>Welcome to Students' Week!</h1>
-            <p>
-                Register now:
-                <a href="https://forms.gle/nLwraWXAdKiLH3bY9" target="_blank"
-                    >Google Form</a
-                >
-            </p>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <img src="assets/images/GcectLogo.png" alt="College Logo" />
+      <h1>GCECT Students' Week Program</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#" onclick="showSection('home')">Home</a></li>
+        <li>
+          <a href="#" onclick="showSection('gallery')">Gallery</a>
+        </li>
+        <li>
+          <a href="#" onclick="showSection('contact')">Contact Us</a>
+        </li>
+      </ul>
+    </nav>
 
-            <div id="markdown-content" class="markdown-body"></div>
-        </div>
+    <div id="home" class="content">
+      <h1>Welcome to Students' Week!</h1>
+      <p>
+        Register now:
+        <a href="https://forms.gle/nLwraWXAdKiLH3bY9" target="_blank"
+          >Google Form</a
+        >
+      </p>
 
-        <div id="gallery" class="content">
-            <h1>Gallery</h1>
-            <div class="gallery">
-                <img src="assets/images/GcectLogo.png" alt="Event 1" />
-                <img src="assets/images/GcectLogo.png" alt="Event 2" />
-                <img src="assets/images/GcectLogo.png" alt="Event 3" />
-            </div>
-        </div>
+      <div id="markdown-content" class="markdown-body"></div>
+    </div>
 
-        <div id="contact" class="content">
-            <h1>Contact Us</h1>
-            <form class="feedback-form" id="feedback-form">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required />
+    <div id="gallery" class="content">
+      <h1>Gallery</h1>
+      <div class="gallery">
+        <img src="assets/images/GcectLogo.png" alt="Event 1" />
+        <img src="assets/images/GcectLogo.png" alt="Event 2" />
+        <img src="assets/images/GcectLogo.png" alt="Event 3" />
+      </div>
+    </div>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required />
+    <div id="contact" class="content">
+      <h1>Contact Us</h1>
+      <form class="feedback-form" id="feedback-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
 
-                <label for="feedback">Feedback:</label>
-                <textarea
-                    id="feedback"
-                    name="feedback"
-                    rows="4"
-                    required
-                ></textarea>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
 
-                <button type="submit">Submit</button>
-            </form>
-        </div>
-        <script src="main.js"></script>
-    </body>
+        <label for="feedback">Feedback:</label>
+        <textarea id="feedback" name="feedback" rows="4" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <script src="main.js"></script>
+  </body>
 </html>
