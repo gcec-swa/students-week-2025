@@ -1,14 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,200..1000;1,200..1000&display=swap");
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Lato", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #f5efe7;
 }
 
 header {
     display: flex;
     align-items: center;
-    background-color: #004080;
+    background-color: #3e5879;
     color: white;
     padding: 10px 20px;
 }
@@ -19,7 +25,7 @@ header img {
 }
 
 nav {
-    background-color: #003366;
+    background-color: #213555;
 }
 
 nav ul {
@@ -42,7 +48,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #00509E;
+    background-color: #00509e;
 }
 
 .content {
@@ -71,7 +77,9 @@ nav ul li a:hover {
     margin-bottom: 5px;
 }
 
-.feedback-form input, .feedback-form textarea, .feedback-form button {
+.feedback-form input,
+.feedback-form textarea,
+.feedback-form button {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
@@ -87,5 +95,5 @@ nav ul li a:hover {
 }
 
 .feedback-form button:hover {
-    background-color: #00509E;
+    background-color: #00509e;
 }
