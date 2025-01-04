@@ -1,76 +1,74 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>GCECT Students' Week</title>
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="icon" href="assets/images/GcectLogo.png" />
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-  <script src="script.js" defer></script>
-</head>
-<body>
-  <header>
-    <img src="assets/images/GcectLogo.png" alt="College Logo" />
-    <h1>GCECT Students' Week Program</h1>
-  </header>
-  <nav>
-    <ul>
-      <li><a href="#" onclick="showSection('home')">Home</a></li>
-      <li><a href="#" onclick="showSection('schedule')">Schedule</a></li>
-      <li><a href="#" onclick="showSection('gallery')">Gallery</a></li>
-      <li><a href="#" onclick="showSection('contact')">Contact Us</a></li>
-      <li><a href="#" onclick="showSection('markdown')">Markdown</a></li>
-    </ul>
-  </nav>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>GCECT Students' Week</title>
 
-  <div id="home" class="content">
-    <h1>Welcome to Students' Week!</h1>
-    <p>Register now:</p>
-    <a href="https://forms.gle/nLwraWXAdKiLH3bY9" target="_blank">Google Form</a>
-  </div>
+        <link rel="stylesheet" href="styles/github-markdown.css" />
+        <link rel="stylesheet" href="styles/styles.css" />
 
-  <div id="schedule" class="content">
-    <h1>Event Schedule</h1>
-    <ul>
-      <li><strong>Quiz:</strong> 8th January, 10 AM</li>
-      <li><strong>Drawing & Digital Art:</strong> 9th January, 2 PM</li>
-      <li><strong>Debate & Extempore:</strong> 10th January, 11 AM</li>
-      <li><strong>Singing & Dancing:</strong> 12th January, 4 PM</li>
-      <li><strong>Sports Events:</strong> 13th January, 9 AM</li>
-      <li><strong>Robotics Workshop:</strong> 14th January, 3 PM</li>
-      <li><strong>Prize Distribution:</strong> 15th January, 5 PM</li>
-    </ul>
-  </div>
+        <link rel="icon" href="assets/images/GcectLogo.png" />
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <img src="assets/images/GcectLogo.png" alt="College Logo" />
+            <h1>GCECT Students' Week Program</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showSection('home')">Home</a></li>
+                <li>
+                    <a href="#" onclick="showSection('gallery')">Gallery</a>
+                </li>
+                <li>
+                    <a href="#" onclick="showSection('contact')">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
 
-  <div id="gallery" class="content">
-    <h1>Gallery</h1>
-    <div class="gallery">
-      <img src="assets/images/GcectLogo.png" alt="Event 1" />
-      <img src="assets/images/GcectLogo.png" alt="Event 2" />
-      <img src="assets/images/GcectLogo.png" alt="Event 3" />
-    </div>
-  </div>
+        <div id="home" class="content">
+            <h1>Welcome to Students' Week!</h1>
+            <p>
+                Register now:
+                <a href="https://forms.gle/nLwraWXAdKiLH3bY9" target="_blank"
+                    >Google Form</a
+                >
+            </p>
 
-  <div id="contact" class="content">
-    <h1>Contact Us</h1>
-    <form class="feedback-form" id="feedback-form">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required />
+            <div id="markdown-content" class="markdown-body"></div>
+        </div>
 
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required />
+        <div id="gallery" class="content">
+            <h1>Gallery</h1>
+            <div class="gallery">
+                <img src="assets/images/GcectLogo.png" alt="Event 1" />
+                <img src="assets/images/GcectLogo.png" alt="Event 2" />
+                <img src="assets/images/GcectLogo.png" alt="Event 3" />
+            </div>
+        </div>
 
-      <label for="feedback">Feedback:</label>
-      <textarea id="feedback" name="feedback" rows="4" required></textarea>
+        <div id="contact" class="content">
+            <h1>Contact Us</h1>
+            <form class="feedback-form" id="feedback-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required />
 
-      <button type="submit">Submit</button>
-    </form>
-  </div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
 
-  <div id="markdown" class="content">
-    <h1>Markdown Content</h1>
-    <div id="markdown-content"></div>
-  </div>
-</body>
+                <label for="feedback">Feedback:</label>
+                <textarea
+                    id="feedback"
+                    name="feedback"
+                    rows="4"
+                    required
+                ></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <script src="main.js"></script>
+    </body>
 </html>
