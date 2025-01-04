@@ -17,7 +17,7 @@ window.onload = function () {
 document.addEventListener("DOMContentLoaded", () => {
   const markdownContainer = document.getElementById("markdown-content");
 
-  fetch("index.md")
+  fetch("markdowns/index.md")
     .then((response) => {
       if (!response.ok) {
         throw new Error("Failed to load Markdown file");
