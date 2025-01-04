@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #004080;
+    color: white;
+    padding: 10px 20px;
+}
+
+header img {
+    height: 50px;
+    margin-right: 20px;
+}
+
+nav {
+    background-color: #003366;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    flex: 1;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #00509E;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h1 {
+    color: #004080;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+.feedback-form {
+    max-width: 400px;
+    margin: auto;
+}
+
+.feedback-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.feedback-form input, .feedback-form textarea, .feedback-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.feedback-form button {
+    background-color: #004080;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.feedback-form button:hover {
+    background-color: #00509E;
+}
