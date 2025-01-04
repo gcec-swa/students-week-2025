@@ -24,6 +24,10 @@
 
 > **Note**: Rules for events not mentioned here will be stated on the spot.
 
+### Quiz
+
+1. Questions will cover topics from science, sports, culture and cinema, with varying difficulty levels.
+
 ### Extempore
 
 1. There will be a pool of topics.
