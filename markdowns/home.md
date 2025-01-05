@@ -8,7 +8,6 @@
 | 8th Jan  | 2:00 PM             | Extempore                |
 |          | 11:00 AM            | Table Tennis             |
 | 9th Jan  | 11:00 AM            | Table Tennis Finals      |
-|          | 2:00 PM             | Debate                   |
 | 10th Jan | 11:00 AM            | Rubik's Cube Solve       |
 |          | 12:30 PM to 1:30 PM | Spell Bee                |
 |          | 2:00 PM to 4:00 PM  | Sit and Draw Competition |
@@ -23,6 +22,10 @@
 ## Rules
 
 > **Note**: Rules for events not mentioned here will be stated on the spot.
+
+### Quiz
+
+1. Questions will cover topics from science, sports, culture and cinema, with varying difficulty levels.
 
 ### Extempore
 
