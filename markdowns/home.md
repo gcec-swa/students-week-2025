@@ -59,8 +59,22 @@
 
 ### Photography
 
-1. The theme will be announced on the day of commencement of Students' Week.
+# Theme
+
+Life on the street
 
 ### Creative Writing
 
-1. The theme will be announced on the day of commencement of Students' Week.
+## Creative Writing topics:
+
+# Poem: 
+
+তোমার তুলনা আমি খুঁজি না কখনো (I don't dare finding your peer) (not more than 20 lines)
+
+# Prose: 
+
+১. বেনারসের কাচোরি গলি ও সাম্যবাদ (Socialism and the panoramic Kachori Gali of Varanasi) (not more than 1500 words)
+
+*Or*
+
+২. পুরীর সমুদ্রতীরে তুমি, আমি আর গরম রসগোল্লা (You, me and hot rasgulla alongside Puri sea beach) (not more than 1500 words)
