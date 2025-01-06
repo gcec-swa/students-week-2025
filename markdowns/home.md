@@ -38,6 +38,10 @@
 1. Only drawing paper will be provided.
 2. **Time Limit**: 2 hours 30 minutes.
 
+### Men's and Women's Cricket
+
+1. **Time**: 11:30 AM
+
 ### Singing
 
 1. Instruments or karaoke are allowed.
