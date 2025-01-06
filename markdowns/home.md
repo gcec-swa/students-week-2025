@@ -12,6 +12,7 @@
 |          | 12:30 PM to 1:30 PM | Spell Bee                |
 |          | 2:00 PM to 4:00 PM  | Sit and Draw Competition |
 | 11th Jan | 11:00 AM            | Badminton                |
+| 12th Jan | 11:30 AM            | Cricket Tournament       |
 | 13th Jan | 11:00 AM to 1:00 PM | Singing Competition      |
 |          | 1:30 PM onwards     | Dance Competition        |
 | 15th Jan | 11:00 AM onwards    | Debate                   |
@@ -31,50 +32,42 @@
 
 1. There will be a pool of topics.
 2. Participants can pick three topics and must choose one.
-3. **Time Limit**: 3 minutes to prepare + 1 minute to conclude = 4 minutes.
+3. **Time Limit**: 2 minutes max (1min30sec to speak + 30sec to conclude).
 
 ### Sit and Draw
 
-1. Only drawing paper will be provided.
-2. **Time Limit**: 2 hours 30 minutes.
-
-### Men's and Women's Cricket
-
-1. **Time**: 11:30 AM
+1. Only drawing sheet will be provided.
+2. **Time Limit**: 2 hour 30 minutes.
 
 ### Singing
 
 1. Instruments or karaoke are allowed.
 2. **Time Limit**:
-   - Solo: 5 minutes
-   - Group: 8 minutes
+   - Solo: 5 minutes max.
+   - Group: 8 minutes max.
 
 ### Dance
 
 1. For Solo or Duo performances, backtracks must be submitted in advance with the participants' names.
-2. File Name should be in this format: {TeamName}_{LeadMemberName}.mp3.
+2. File Name should be in this format: {TeamName}\_{LeadMemberName}.mp3.
 3. Link of the folder for the uploading: [Google Drive](https://drive.google.com/drive/folders/1hW3mRFd8cDYD1MtF-_Ou3Dvp8kVznAhG?usp=sharing)
 4. If it is a youtube video, please download the mp3 and submit it. Paste the video link in this [Handy Converter](https://ytmp3.la/B0Q9/)
-5. **Time Limit**: 5 minutes.
+5. **Time Limit**: 5 minutes max.
 
 ### Photography
 
-# Theme
-
-Life on the street
+1. Theme
+   - Life on the street
+2. 2 best photographers will be awarded.
+3. Submission will close on 23:59, 13th Jan, 2025
 
 ### Creative Writing
 
-## Creative Writing topics:
-
-# Poem: 
-
-তোমার তুলনা আমি খুঁজি না কখনো (I don't dare finding your peer) (not more than 20 lines)
-
-# Prose: 
-
-১. বেনারসের কাচোরি গলি ও সাম্যবাদ (Socialism and the panoramic Kachori Gali of Varanasi) (not more than 1500 words)
-
-*Or*
-
-২. পুরীর সমুদ্রতীরে তুমি, আমি আর গরম রসগোল্লা (You, me and hot rasgulla alongside Puri sea beach) (not more than 1500 words)
+1. Theme
+   - Poem:
+     1. তোমার তুলনা আমি খুঁজি না কখনো (I don't dare finding your peer) (not more than 20 lines)
+   - Prose:
+     1. বেনারসের কাচোরি গলি ও সাম্যবাদ (Socialism and the panoramic Kachori Gali of Varanasi) (not more than 1500 words)
+     2. পুরীর সমুদ্রতীরে তুমি, আমি আর গরম রসগোল্লা (You, me and hot rasgulla alongside Puri sea beach) (not more than 1500 words)
+2. 3 best writers will be awarded.
+3. Submission will close on 23:59, 13th Jan, 2025
