@@ -1,5 +1,9 @@
 # Students' Week 2025
 
+## UPDATE
+
+07.01.24 - Drawing Theme - Tranquility
+
 ## Schedule
 
 | Date     | Time                | Event                    |
@@ -36,6 +40,8 @@
 
 ### Sit and Draw
 
+1. Theme
+  - Tranquility
 1. Only drawing sheet will be provided.
 2. **Time Limit**: 2 hour 30 minutes.
 
