@@ -33,6 +33,7 @@
 4. 1 submission is allowed per person.
 5. No heavy edits are allowed.
 6. Pictures submitted out of topic will be disqualified.
+7. Submission Link: [Google Form](https://forms.gle/2MEH4McofcqrszS77)
 
 ### Creative Writing
 
@@ -44,6 +45,7 @@
      2. পুরীর সমুদ্রতীরে তুমি, আমি আর গরম রসগোল্লা (You, me and hot rasgulla alongside Puri sea beach) (not more than 1500 words)
 2. 3 best writers will be awarded.
 3. Submission will close on 23:59, 13th Jan, 2025
+4. Submission Link: [Google Form](https://forms.gle/LtB5T4PSeHntM1s26)
 
 ### Quiz
 
