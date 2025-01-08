@@ -1,26 +1,26 @@
 function showSection(sectionId) {
-  const sections = document.querySelectorAll(".content");
+  const sections = document.querySelectorAll('.content');
   sections.forEach((section) => {
-    section.style.display = "none";
+    section.style.display = 'none';
   });
 
   const targetSection = document.getElementById(sectionId);
   if (targetSection) {
-    targetSection.style.display = "block";
+    targetSection.style.display = 'block';
   }
 }
 
 window.onload = function () {
-  showSection("home");
+  showSection('home');
 };
 
-document.addEventListener("DOMContentLoaded", () => {
-  const markdownContainer = document.getElementById("markdown-content");
+document.addEventListener('DOMContentLoaded', () => {
+  const markdownContainer = document.getElementById('markdown-content');
 
-  fetch("markdowns/home.md")
+  fetch('markdowns/home.md')
     .then((response) => {
       if (!response.ok) {
-        throw new Error("Failed to load Markdown file");
+        throw new Error('Failed to load Markdown file');
       }
       return response.text();
     })
@@ -30,7 +30,17 @@ document.addEventListener("DOMContentLoaded", () => {
       markdownContainer.innerHTML = htmlContent;
     })
     .catch((error) => {
-      console.error("Error loading Markdown:", error);
-      markdownContainer.innerHTML = "<p>Failed to load content.</p>";
+      console.error('Error loading Markdown:', error);
+      markdownContainer.innerHTML = '<p>Failed to load content.</p>';
     });
+
+  const modal = document.querySelector('.modal');
+  document.querySelector('.gallery img').addEventListener('click', (e) => {
+    const modalImage = document.querySelector('#gallery-modal-image');
+    modalImage.src = e.target.src;
+    modal.style.display = 'block';
+  });
+  modal.addEventListener('click', () => {
+    modal.style.display = 'none';
+  });
 });
