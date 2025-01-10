@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
@@ -49,17 +49,51 @@
 
     <div id="gallery" class="content gallery">
       <h1>Gallery</h1>
+
+      <!-- Quiz Section -->
       <h2>Quiz</h2>
       <ul>
         <li>
-          <img loading="lazy" src="assets/images/gallery/quiz/IMG20250107145841.jpg" alt="quiz people on stage" />
+          <img
+            loading="lazy"
+            src="assets/images/gallery/quiz/IMG20250107145841.jpg"
+            alt="Quiz participants on stage"
+            data-name="John Doe"
+            data-dept="CSE"
+            data-roll="12345"
+          />
         </li>
       </ul>
 
-      <div class="modal">
+      <!-- Extempore Section -->
+      <h2>Extempore</h2>
+      <ul>
+        <li>
+          <img
+            loading="lazy"
+            src="assets/images/gallery/extempore/IMG20250107150000.jpg"
+            alt="Extempore event participants"
+            data-name="Jane Smith"
+            data-dept="ECE"
+            data-roll="67890"
+          />
+        </li>
+      </ul>
+
+      <!-- Add other event sections in a similar manner -->
+
+      <!-- Modal -->
+      <div class="modal" id="gallery-modal">
+        <span class="close">&times;</span>
         <img class="modal-content" id="gallery-modal-image" />
+        <div class="details">
+          <p><strong>Name:</strong> <span id="modal-name"></span></p>
+          <p><strong>Department:</strong> <span id="modal-dept"></span></p>
+          <p><strong>Roll No:</strong> <span id="modal-roll"></span></p>
+        </div>
       </div>
     </div>
+
     <!-- CONTACT PAGE -->
     <div id="contact" class="content">
       <div class="responsive-container-block container">
