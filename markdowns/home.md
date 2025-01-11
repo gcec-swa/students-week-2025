@@ -28,12 +28,14 @@
 
 1. Theme
    - Life on the street
-2. 2 best photographers will be awarded.
+2. 3 best photographers will be awarded.
 3. Submission will close on 23:59, 13th Jan, 2025.
 4. 1 submission is allowed per person.
 5. No heavy edits are allowed.
 6. Pictures submitted out of topic will be disqualified.
-7. Submission Link: [Google Form](https://forms.gle/2MEH4McofcqrszS77)
+7. All images *must be* submitted along with the Meta data
+8. if any sort of edits are made, screenshot of the details of your edited picture *must be* submitted along with it 
+9. Submission Link: [Google Form](https://forms.gle/2MEH4McofcqrszS77)
 
 ### Creative Writing
 
