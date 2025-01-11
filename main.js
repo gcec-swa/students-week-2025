@@ -15,6 +15,7 @@ window.onload = function () {
 };
 
 document.addEventListener('DOMContentLoaded', () => {
+  // Load Markdown content for the home section
   const markdownContainer = document.getElementById('markdown-content');
 
   fetch('markdowns/home.md')
@@ -34,13 +35,31 @@ document.addEventListener('DOMContentLoaded', () => {
       markdownContainer.innerHTML = '<p>Failed to load content.</p>';
     });
 
+  // Modal functionality for gallery section
   const modal = document.querySelector('.modal');
-  document.querySelector('.gallery img').addEventListener('click', (e) => {
-    const modalImage = document.querySelector('#gallery-modal-image');
-    modalImage.src = e.target.src;
-    modal.style.display = 'block';
+  const modalImage = document.querySelector('#gallery-modal-image');
+  const modalName = document.getElementById('modal-name');
+  const modalDept = document.getElementById('modal-dept');
+  const modalRoll = document.getElementById('modal-roll');
+
+  // Add click event listener to all gallery images
+  document.querySelectorAll('.gallery img').forEach((img) => {
+    img.addEventListener('click', (e) => {
+      modalImage.src = e.target.src;
+
+      // Populate modal details from data attributes
+      modalName.textContent = e.target.dataset.name || 'N/A';
+      modalDept.textContent = e.target.dataset.dept || 'N/A';
+      modalRoll.textContent = e.target.dataset.roll || 'N/A';
+
+      modal.style.display = 'block';
+    });
   });
-  modal.addEventListener('click', () => {
-    modal.style.display = 'none';
+
+  // Close modal when clicked outside
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal) {
+      modal.style.display = 'none';
+    }
   });
 });
